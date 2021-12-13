@@ -1,0 +1,256 @@
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 2px #A8DADC;
+    color: #e63046;
+}
+
+div.contenedor{
+    display: flex;
+    background-color: #560bad;
+}
+
+div.contenedor > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor2{
+    display: flex;
+    background-color: #560bad;
+    flex-direction: column;
+}
+
+div.contenedor2 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor3{
+    display: flex;
+    background-color: #560bad;
+    flex-direction: column-reverse;
+}
+
+div.contenedor3 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor4{
+    display: flex;
+    background-color: #560bad;
+    flex-direction: row;
+}
+
+div.contenedor4 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor5{
+    display: flex;
+    background-color: #560bad;
+    flex-direction: row-reverse;
+}
+
+div.contenedor5 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor6{
+    display: flex;
+    background-color: #560bad;
+    /*flex-direction: row;*/ /*ESTAS DOS*/
+    /*flex-wrap: wrap;*/ /*LINEAS SE PUEDEN FUCIONAR EN UNA ASÍ*/
+    flex-flow: row wrap;
+}
+
+div.contenedor6 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor7{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+
+div.contenedor7 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor8{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 300px;
+
+}
+
+div.contenedor8 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor9{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 300px;
+    align-items: flex-start;
+}
+
+div.contenedor9 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor10{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 300px;
+    align-items: baseline;
+}
+
+div.contenedor10 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.contenedor11{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 300px;
+    align-content:center ;
+}
+
+div.contenedor11 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+
+div.contenedor12{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 300px;
+    align-content:flex-end ;
+}
+
+div.contenedor12 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+
+div.contenedor13{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 300px;
+    align-content:flex-start ;
+}
+
+div.contenedor13 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+
+div.contenedor14{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 300px;
+    align-content: space-around ;
+}
+
+div.contenedor14 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+
+div.contenedor15{
+    display: flex;
+    background-color: #560bad;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 300px;
+    align-content:space-between ;
+}
+
+div.contenedor15 > p{
+    background-color: #4895ef;
+    color: white;
+    margin: 20px;
+    padding: 15px;
+    font-size: 1.5em;
+}
+
+div.imagen1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height: 300px;
+
+}
+
+

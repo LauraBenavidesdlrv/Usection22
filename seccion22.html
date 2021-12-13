@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox en CSS</title>
+    <link rel="stylesheet" href="/CSS/estilos.css">
+</head>
+<body>
+    <h1>Flexbox en CSS</h1>
+    <p>El módulo de caja flexible, sirve para distribuir el espacio entre los items de una interfaz y mejorar las capacidades de alineación.En resúmen sirve para acomodar las cajas de forma más sencilla</p>
+    <div class="contenedor">
+        <p>texto1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+    </div>
+    <p>Ahora, para selecionar la dirección en la que van a estar los elementos, utilizo flex-directión</p>
+    <div class="contenedor2">
+        <p>texto 1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+    </div>
+    <p>También se puede cambiar el orden de las cajas con flex-direction:column-reverse;</p>
+    <div class="contenedor3">
+        <p>texto 1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+    </div>
+    <p>tambien se puede poner en fila (que es como aparece por default)con flex-direction:</p>
+    <div class="contenedor4">
+        <p>texto 1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+    </div>
+    <p>En este caso también se puede cambiar el orden de las cajas con flex-direction:row-reverse;</p>
+    <div class="contenedor5">
+        <p>texto 1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+    </div>
+    <p>Ahora, si quiero que las cajas sean responsivas y que queden envueltos por el div padre cuando se minumize la página</p>
+    <div class="contenedor6">
+        <p>texto1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+        <p>texto4</p>
+        <p>texto5</p>
+        <p>texto6</p>
+    </div>
+    <p>Ahora si queremos a comodar los elementos de distinta forma ponemos justify-content:  ; en este caso la propiedad fue space-between</p>
+    <div class="contenedor7">
+        <p>texto 1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+    </div>
+
+    <p>También se puede acomodar la altura de los elementos si se cambia la altura del div </p>
+    <div class="contenedor8">
+        <p>texto 1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+    </div>
+
+    <p>Pero si uno no quiere que esto suceda se puede editar el flex blox con align-items: ; en este caso se utilizó el valor flex-start.</p>
+    <div class="contenedor9">
+        <p>texto 1</p>
+        <p>texto2</p>
+        <p>texto3</p>
+    </div>
+
+    <p> Si alguno de los elementos es de menor altura de los otros y se quieren aliner de forma simétrica sobre una linea base el valor del align -items es baseline.</p>
+    <div class="contenedor10">
+        <p>texto1</p>
+        <p style="height: 100px;">texto2</p>
+        <p>texto3</p>
+    </div>
+    <h1>Align-content: alineación vertical</h1>
+    <p>Es el espacio entre las lineas del flex box</p>
+    <h2>Center</h2>
+    <div class="contenedor11">
+        <p style="height: 100px;">texto1</p>
+        <p>texto2</p>
+        <p style="height: 60px;">texto3</p>
+        <p>texto4</p>
+        <p>texto5</p>
+        <p style="height: 50px;">texto6</p>
+    </div>
+
+
+    <h2>Flex-end</h2>
+    <div class="contenedor12">
+        <p style="height: 100px;">texto1</p>
+        <p>texto2</p>
+        <p style="height: 60px;">texto3</p>
+        <p>texto4</p>
+        <p>texto5</p>
+        <p style="height: 50px;">texto6</p>
+    </div>
+
+
+    <h2>flex-start</h2>
+    <div class="contenedor13">
+        <p style="height: 100px;">texto1</p>
+        <p>texto2</p>
+        <p style="height: 60px;">texto3</p>
+        <p>texto4</p>
+        <p>texto5</p>
+        <p style="height: 50px;">texto6</p>
+    </div>
+
+
+    <h2>space-around</h2>
+    <div class="contenedor14">
+        <p style="height: 100px;">texto1</p>
+        <p>texto2</p>
+        <p style="height: 60px;">texto3</p>
+        <p>texto4</p>
+        <p>texto5</p>
+        <p style="height: 50px;">texto6</p>
+    </div>
+
+
+    <h2>space-between</h2>
+    <div class="contenedor15">
+        <p style="height: 100px;">texto1</p>
+        <p>texto2</p>
+        <p style="height: 60px;">texto3</p>
+        <p>texto4</p>
+        <p>texto5</p>
+        <p style="height: 50px;">texto6</p>
+    </div>
+
+    <h1>Flexbox en cada elemento</h1>
+    <h2>Cambiar el orden: </h2>
+    <div class="imagen1">
+        <img src="/IMG/img1.jpg" width="40%">
+        <img src="/IMG/img2.jpg" width="40%">
+    </div> 
+    <p> 
+        NOTA: si el order s 0 en todos quiere decir que queda como se puso al principio
+    </p>  
+
+    <h2>Par indicar que algún elemento ocupa mayor espacio: </h2>
+    <div class="imagen1">
+        <img src="/IMG/img3.jpg" width="40%">
+        <img src="/IMG/img4.jpg" width="40%">
+    </div> 
+    <p> 
+        NOTA: si el order s 0 en todos quiere decir que queda como se puso al principio
+    </p>
+
+    <h2>El ancho también se puede graduar con flex-basis: </h2>
+    <div class="imagen1">
+        <img src="/IMG/img5.jpg" width="40%">
+        <img src="/IMG/img6.jpg" width="40%">
+    </div> 
+
+    <h2>Aligne-self:para indicar de manera individual como se debe acomodar de manera vertical nuestro elemento </h2>
+    <div class="imagen1">
+        <img src="/IMG/img7.jpg" width="40%">
+        <img src="/IMG/img8.jpg" width="40%">
+    </div> 
+ 
+
+</body>
+</html>
